@@ -29,7 +29,7 @@ public class Questions extends ExamTest
       questions1.add("luz");
       questions1.add("planta");
       questions1.add("arbol");
-      questions1.add("answer 3");
+      questions1.add("answer 4");
       //test.put(2,questions1);
       
       Set<String> questions2 = new TreeSet<>();
