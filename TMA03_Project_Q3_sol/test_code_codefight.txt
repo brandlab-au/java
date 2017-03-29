@@ -1,0 +1,3 @@
+Exam aExam = new Exam ();
+int[] i = {4,8,5,4};
+aExam.adjacentElementsProduct(i);

@@ -1,0 +1,44 @@
+Class documentation
+<---- javadoc command: ---->
+/Mac/M250/BlueJ/BlueJ.app/Contents/PlugIns/jdk/Contents/Home/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.7
+-classpath
+/Mac/M250/BlueJ/BlueJ.app/Contents/Resources/Java/bluejcore.jar:/Mac/M250/BlueJ/BlueJ.app/Contents/Resources/Java/junit-4.8.2.jar:/Mac/M250/BlueJ/BlueJ.app/Contents/Resources/Java/userlib/asm-debug-all-4.0_RC1.jar:/Mac/M250/BlueJ/BlueJ.app/Contents/Resources/Java/userlib/bsh-2.1b2_OU.jar:/Mac/M250/BlueJ/BlueJ.app/Contents/Resources/Java/userlib/ou.jar:/Mac/M250/BlueJ/BlueJ.app/Contents/Resources/Java/userlib/swingx-core-1.6.2.jar:/Mac/M250/TMA03/TMA03Download_updated/TMA03_Project_Q3_sol
+-d
+/Mac/M250/TMA03/TMA03Download_updated/TMA03_Project_Q3_sol/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/Mac/M250/BlueJ/BlueJ.app/Contents/Resources/Java/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+/Mac/M250/TMA03/TMA03Download_updated/TMA03_Project_Q3_sol/Exam.java
+<---- end of javadoc command ---->
+Loading source file /Mac/M250/TMA03/TMA03Download_updated/TMA03_Project_Q3_sol/Exam.java...
+Constructing Javadoc information...
+Standard Doclet version 1.7.0_21
+Building tree for all the packages and classes...
+Generating /Mac/M250/TMA03/TMA03Download_updated/TMA03_Project_Q3_sol/doc/Exam.html...
+/Mac/M250/TMA03/TMA03Download_updated/TMA03_Project_Q3_sol/Exam.java:8: warning - @Jonathon is an unknown tag.
+/Mac/M250/TMA03/TMA03Download_updated/TMA03_Project_Q3_sol/Exam.java:8: warning - @queston is an unknown tag.
+Generating /Mac/M250/TMA03/TMA03Download_updated/TMA03_Project_Q3_sol/doc/package-frame.html...
+Generating /Mac/M250/TMA03/TMA03Download_updated/TMA03_Project_Q3_sol/doc/package-summary.html...
+Generating /Mac/M250/TMA03/TMA03Download_updated/TMA03_Project_Q3_sol/doc/constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating /Mac/M250/TMA03/TMA03Download_updated/TMA03_Project_Q3_sol/doc/allclasses-frame.html...
+Generating /Mac/M250/TMA03/TMA03Download_updated/TMA03_Project_Q3_sol/doc/allclasses-noframe.html...
+Generating /Mac/M250/TMA03/TMA03Download_updated/TMA03_Project_Q3_sol/doc/index.html...
+Generating /Mac/M250/TMA03/TMA03Download_updated/TMA03_Project_Q3_sol/doc/stylesheet.css...
+2 warnings

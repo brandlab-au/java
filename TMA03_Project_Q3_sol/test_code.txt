@@ -1,0 +1,5 @@
+Exam aExam = new Exam ();
+aExam.addData();
+aExam.printMap();
+aExam.addMapEntry(4,"which word in spainish does ir mean","to walk","to run","to go ","number 4 to go");
+aExam.printMap();

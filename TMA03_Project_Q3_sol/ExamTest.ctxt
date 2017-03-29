@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ questionNumber()
+comment0.text=\n\ Nice\n
+comment1.params=
+comment1.target=void\ mapIt()
+comment2.params=
+comment2.target=void\ printMap()
+comment2.text=\n\ Iterates\ over\ the\ map's\ keys\ to\ print\n\ out\ a\ meaningful\ textual\ representation\ of\ the\ map's\ contents.\n
+numComments=3
