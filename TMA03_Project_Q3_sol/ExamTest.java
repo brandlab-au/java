@@ -9,20 +9,29 @@ public abstract class ExamTest
 {
    // instance variables - replace the example below with your own
    private int x;
-   private Map <Integer, Set<ExamTest>> test ;
+   private static  Map <Integer, Set<Questions>> test ;
    Integer z = 1;
    /**
     * Nice
     */
-   public abstract  void questionNumber ();
+   public abstract void questionNumber ();
    
-   public static void mapIt(){
+   public static void printSet(Set questions){
       Questions aQuestion = new Questions(); 
-      aQuestion.questionsForTest();
-      //test = new HashMap<>();
-      //test.put(z,aQuestion);
       
+      System.out.println(questions);
    }
+   
+   /*
+    * Map test 
+    * 
+    */
+   public static void map(Integer z,Set Questions ){
+      //aQuestion.questionsForTest();
+      //test = new HashMap<>();
+      //test.put(z,Questions);
+      //System.out.println(test.size());
+   } 
    
    /**
     * Iterates over the map's keys to print

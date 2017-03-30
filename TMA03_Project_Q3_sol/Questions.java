@@ -45,7 +45,7 @@ public class Questions extends ExamTest
    
    @Override 
    public void questionNumber (){
-      ExamTest.mapIt();
+      //ExamTest.mapIt();
    }
    
    public void questionsForTest (){
@@ -55,6 +55,7 @@ public class Questions extends ExamTest
       questions.add("ave");
       questions.add("pes");
       questions.add("answer 3");
+      //ExamTest.printSet(questions);
       System.out.println(questions);
    }
 }

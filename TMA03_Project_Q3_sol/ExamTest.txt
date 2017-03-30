@@ -1,2 +1,2 @@
 Questions a = new Questions();
-a.questionNumber();
+a.questionsForTest();
