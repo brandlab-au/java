@@ -17,9 +17,8 @@ public abstract class ExamTest
    public abstract void questionNumber ();
    
    public static void printSet(Set questions){
-      Questions aQuestion = new Questions(); 
-      
-      System.out.println(questions);
+      //Questions aQuestion = new Questions(); 
+      System.out.println(questions );
    }
    
    /*
