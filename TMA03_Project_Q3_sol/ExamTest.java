@@ -1,36 +1,45 @@
 import java.util.*;
 /**
- * Abstract class ExamTest - write a description of the class here
+ * Abstract class ExamTest - 
  * 
- * @author (your name here)
- * @version (version number or date here)
+ * @author (Jon)
+ * @version ()
  */
 public abstract class ExamTest
 {
-   // instance variables - replace the example below with your own
-   private int x;
-   private static  Map <Integer, Set<Questions>> test ;
-   Integer z = 1;
+   // Instance variables -
+   
+   public Map <Integer, Set<Questions>> test = new HashMap<>();
+   
    /**
-    * Nice
+    * TO hold question Numbers 
     */
    public abstract void questionNumber ();
    
+   /**
+    * Just to print out set 
+    */
    public static void printSet(Set questions){
-      //Questions aQuestion = new Questions(); 
+      
       System.out.println(questions );
    }
    
    /*
-    * Map test 
-    * 
+    * put the sets into a map with the key z
     */
-   public static void map(Integer z,Set Questions ){
-      //aQuestion.questionsForTest();
-      //test = new HashMap<>();
-      //test.put(z,Questions);
-      //System.out.println(test.size());
+   public void map(Integer z,Set questions){
+      
+      
+      test.put(z,questions);
+      
+         System.out.println(test.values());
+         System.out.println(test.size());
+   
    } 
+   
+   public void size (){
+      System.out.println(test.size());
+   }
    
    /**
     * Iterates over the map's keys to print
@@ -41,7 +50,7 @@ public abstract class ExamTest
      for(Integer i : test.keySet())
      {
       //System.out.println("These are the keys: " + i);
-      System.out.println(test.get(i));
+      //System.out.println(test.get(i));
       //System.out.println("last value in question 3: "+ test);
      } 
    }

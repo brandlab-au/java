@@ -1,13 +1,16 @@
 #BlueJ class context
 comment0.params=
 comment0.target=void\ questionNumber()
-comment0.text=\n\ Nice\n
+comment0.text=\n\ TO\ hold\ question\ Numbers\ \n
 comment1.params=questions
 comment1.target=void\ printSet(java.util.Set)
-comment2.params=z\ Questions
+comment1.text=\n\ Just\ to\ print\ out\ set\ \n
+comment2.params=z\ questions
 comment2.target=void\ map(java.lang.Integer,\ java.util.Set)
-comment2.text=\n\ Map\ test\ \n\ \n
+comment2.text=\n\ put\ the\ sets\ into\ a\ map\ with\ the\ key\ z\n
 comment3.params=
-comment3.target=void\ printMap()
-comment3.text=\n\ Iterates\ over\ the\ map's\ keys\ to\ print\n\ out\ a\ meaningful\ textual\ representation\ of\ the\ map's\ contents.\n
-numComments=4
+comment3.target=void\ size()
+comment4.params=
+comment4.target=void\ printMap()
+comment4.text=\n\ Iterates\ over\ the\ map's\ keys\ to\ print\n\ out\ a\ meaningful\ textual\ representation\ of\ the\ map's\ contents.\n
+numComments=5

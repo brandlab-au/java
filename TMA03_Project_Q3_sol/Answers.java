@@ -1,23 +1,21 @@
 import ou.*;
 import java.util.*;
 /**
- * Write a description of class Answers here.
+ * class Answers here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (jon) 
+ * @version ()
  */
 public class Answers extends ExamTest
 {
-   // instance variables - replace the example below with your own
-   private int x;
+   // instance variables - 
 
    /**
     * Constructor for objects of class Answers
     */
    public Answers()
    {
-      // initialise instance variables
-      x = 0;
+      
    }
 
    @Override 

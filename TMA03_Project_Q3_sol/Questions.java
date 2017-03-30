@@ -1,14 +1,14 @@
 import ou.*;
 import java.util.*;
 /**
- * Write a description of class Questions here.
+ *  Class Questions olds questions.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Jon) 
+ * @version ()
  */
 public class Questions extends ExamTest
 {
-   // instance variables - replace the example below with your own
+   // instance variables - 
    private int x;
    
    /**
@@ -16,11 +16,7 @@ public class Questions extends ExamTest
     */
    public void Questions()
    {
-     
-      
-      
-      
-      //return questions;
+   
    }
    
    @Override 
@@ -52,10 +48,15 @@ public class Questions extends ExamTest
       questions2.add("answer 2");
       
       Set[] theArray = {questions,questions1,questions2};
+      for (int i = 0; i<theArray.length ; i++)
+         {
       
-      for (Set items : theArray ){
-      ExamTest.printSet(items);
-      }
+         
+            map(i,theArray[i]);
+        
+        System.out.println(i);
+       }
+      
       
    }
    
