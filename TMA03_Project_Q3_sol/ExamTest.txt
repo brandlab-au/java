@@ -1,2 +1,8 @@
 Questions a = new Questions();
 a.questionsForTest();
+//a.printMap();
+a.addMapEntry(7, "asjfsdk","ad","dfa","dfd","dfsa");
+a.addMapEntry(8, "asjfsdk","ad","dfa","dfd","dfsa");
+a.printMapValue(7);
+a.deleteEntry(7);
+a.printMapValue(7);

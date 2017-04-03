@@ -1,5 +1,8 @@
 Exam aExam = new Exam ();
 aExam.addData();
-aExam.printMap();
+//aExam.printMap();
 aExam.addMapEntry(4,"which word in spainish does ir mean","to walk","to run","to go ","number 4 to go");
-aExam.printMap();
+aExam.addMapEntry(5,"which verb in spanish means Im","ser","soy","estoy","number 1 to go");
+//aExam.printMap();
+
+aExam.printMapValue(4);

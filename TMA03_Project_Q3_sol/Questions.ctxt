@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=
-comment0.target=void\ Questions()
+comment0.params=question\ poss1\ poss2\ poss3\ answer
+comment0.target=void\ Questions(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
 comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Questions\n
 comment1.params=
 comment1.target=void\ questionNumber()
@@ -8,4 +8,9 @@ comment2.params=
 comment2.target=void\ questionsForTest()
 comment3.params=q
 comment3.target=void\ print(java.util.Set)
-numComments=4
+comment4.params=z\ a\ b\ c\ d\ e
+comment4.target=void\ addMapEntry(java.lang.Integer,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment4.text=\n\ Takes\ two\ arguments\ representing\ a\ key\ and\ a\ value.\n\ Adds\ the\ key\ and\ value\ to\ the\ map.\ \n\ If\ the\ key\ is\ already\ present\ the\ existing\ value\ is\ overwritten.\n\ Returns\ no\ value.\n\ Note\ the\ method\ calles\ a\ map\ method\ in\ class\ Examtest\ .\n
+comment5.params=v
+comment5.target=void\ deleteEntry(java.lang.Integer)
+numComments=6

@@ -9,14 +9,24 @@ import java.util.*;
 public class Questions extends ExamTest
 {
    // instance variables - 
-   private int x;
+   public Set<String> question = new TreeSet<>();
+   String q;
+   String p1;
+   String p2;
+   String p3;
+   String an;
    
    /**
     * Constructor for objects of class Questions
     */
-   public void Questions()
+   public void Questions(String question, String poss1, String poss2, 
+   String poss3,String answer)
    {
-   
+   this.q = question;
+   this.p1 = poss1;
+   this.p2 = poss2;
+   this.p3 = poss3;
+   this.an = answer;
    }
    
    @Override 
@@ -51,7 +61,6 @@ public class Questions extends ExamTest
       for (int i = 0; i<theArray.length ; i++)
          {
       
-         
             map(i,theArray[i]);
         
         System.out.println(i);
@@ -63,4 +72,32 @@ public class Questions extends ExamTest
    public void print (Set q){
    //ExamTest.printSet();
    }
+   
+    /**
+     * Takes two arguments representing a key and a value.
+     * Adds the key and value to the map. 
+     * If the key is already present the existing value is overwritten.
+     * Returns no value.
+     * Note the method calles a map method in class Examtest .
+     */
+    public void addMapEntry(Integer z,String a,
+    String b,String c,String d,String e)
+   {
+     Set<String> q = new TreeSet<>();
+      q.add(a);
+      q.add(b);
+      q.add(c);
+      q.add(d);
+      q.add(e);
+     map(z,q);
+     System.out.println("This is the size of the map now "+ test.size());
+     //System.out.println(test.containsKey(x));
+   }
+   
+   
+   public void deleteEntry(Integer v){
+      
+       dEntry(v);
+   }
+    
 }

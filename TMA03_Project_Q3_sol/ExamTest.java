@@ -28,12 +28,9 @@ public abstract class ExamTest
     * put the sets into a map with the key z
     */
    public void map(Integer z,Set questions){
-      
-      
-      test.put(z,questions);
-      
-         System.out.println(test.values());
-         System.out.println(test.size());
+     test.put(z,questions);
+     System.out.println(test.values());
+     System.out.println(test.size());
    
    } 
    
@@ -50,9 +47,40 @@ public abstract class ExamTest
      for(Integer i : test.keySet())
      {
       //System.out.println("These are the keys: " + i);
-      //System.out.println(test.get(i));
+      System.out.println(test.get(i));
       //System.out.println("last value in question 3: "+ test);
      } 
+     
+     
    }
+   
+    /**
+    * Iterates over the map's keys to print
+    * out a meaningful textual representation of the map's contents.
+    */
+   public void printMapValue(Integer x)
+   {
+     System.out.println("For the key "+ x + " the below has been found");
+     System.out.println(test.get(x));
+     //System.out.println("last value in question 3: "+ test);
+     //System.out.println(test.containsKey(x));
+   }
+   
+   /**
+    * Takes a single argument representing a key in the map.
+    * If the key given as the argument exists, deletes the key– value pair 
+    * from the map, and returns true, otherwise returns false.
+    */
+   public void dEntry(Integer z)
+   {
+     //boolean b;
+     test.remove(z);
+     //System.out.println(b);
+     
+   }
+   
+  
+   
+   
    
 }
