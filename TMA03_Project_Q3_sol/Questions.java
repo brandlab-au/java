@@ -94,9 +94,8 @@ public class Questions extends ExamTest
      //System.out.println(test.containsKey(x));
    }
    
-   
    public void deleteEntry(Integer v){
-      
+      // this doesn't work when I put boolena of throws stack overflow 
        dEntry(v);
    }
     
