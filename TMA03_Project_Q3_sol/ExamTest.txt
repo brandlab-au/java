@@ -1,8 +1,9 @@
 Questions a = new Questions();
 a.questionsForTest();
 //a.printMap();
-a.addMapEntry(7, "asjfsdk","ad","dfa","dfd","dfsa");
-a.addMapEntry(8, "asjfsdk","ad","dfa","dfd","dfsa");
-a.printMapValue(7);
-a.deleteEntry(7);
-a.printMapValue(7);
+a.addMapEntry(3, "what does gustar mean","like","to like","he likes","answer 2");
+a.addMapEntry(4, "what does comiste mean","I eat","I'v eaten","you eat","anser3");
+a.printMapValue(3);
+a.deleteEntry(3);
+a.printMapValue(3);
+a.selectKeys(2);

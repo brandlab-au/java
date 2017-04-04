@@ -79,6 +79,18 @@ public abstract class ExamTest
      
    }
    
+   /**
+    * Returns a collection of all the keys that hava key below that entered.
+    * particular selection criterion specified by one or more arguments.
+    */
+   public void selectKeys(Integer z)
+   {
+     for (int i=0; i<z; i++)
+     {
+        System.out.println(test.get(i));
+     }
+   }
+   
   
    
    
