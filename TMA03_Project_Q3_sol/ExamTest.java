@@ -80,7 +80,7 @@ public abstract class ExamTest
    }
    
    /**
-    * Returns a collection of all the keys that hava key below that entered.
+    * Returns a collection of all the keys that have key below that entered.
     * particular selection criterion specified by one or more arguments.
     */
    public void selectKeys(Integer z)
@@ -89,6 +89,27 @@ public abstract class ExamTest
      {
         System.out.println(test.get(i));
      }
+   }
+   
+   /**
+    * Returns a collection of all the values that have the below caracteristicas.
+    * particular selection criterion specified by one or more arguments.
+    */
+   public boolean selectValues(String z)
+   {
+         // this is not returning the values 
+        System.out.println(test.containsValue(z));
+        return true;
+   }
+   
+   /**
+    * Adds a new element to the collection of elements for a
+    * particular key. You can assume that the key exists in the map.
+    * Returns no value.
+    */
+   public void addValue(String z)
+   {
+        
    }
    
   
