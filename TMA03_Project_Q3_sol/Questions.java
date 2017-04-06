@@ -2,9 +2,11 @@ import ou.*;
 import java.util.*;
 /**
  *  Class Questions olds questions.
- * 
+ * This did not work out, it almost worked but part D I couldn't get the
+ * last few methods to work .
+ * Also 
  * @author (Jon) 
- * @version ()
+ * @version (2)
  */
 public class Questions extends ExamTest
 {

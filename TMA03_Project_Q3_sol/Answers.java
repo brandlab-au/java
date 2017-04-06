@@ -1,10 +1,10 @@
 import ou.*;
 import java.util.*;
 /**
- * class Answers here.
+ * Not need this class 
  * 
  * @author (jon) 
- * @version ()
+ * @version (2)
  */
 public class Answers extends ExamTest
 {

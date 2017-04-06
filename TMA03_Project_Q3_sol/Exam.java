@@ -1,9 +1,9 @@
 import java.util.*;
 /**
  * Class Exam - Simulates a downloadable exam.
- * 
+ * This did not work out.
  * @Jonathon M250
- * @queston 3
+ * @version 1
  */
 public class Exam 
 {

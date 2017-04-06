@@ -1,9 +1,9 @@
 import java.util.*;
 /**
  * Abstract class ExamTest - 
- * 
+ * This did not work out.
  * @author (Jon)
- * @version ()
+ * @version (2)
  */
 public abstract class ExamTest
 {
