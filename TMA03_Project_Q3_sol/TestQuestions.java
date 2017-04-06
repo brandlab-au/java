@@ -8,8 +8,11 @@
 public class TestQuestions
 {
    // instance variables - 
-   
-   
+   private String quest;
+   private String poss1;
+   private String poss2;
+   private String poss3;
+   private String anAnswer;
    
    /**
     * Constructor for objects of class TestQuestions
@@ -19,16 +22,22 @@ public class TestQuestions
       // initialise instance variables
       
    }
-
+   
    /**
-    * An example of a method - replace this comment with your own
-    * 
-    * @param  y   a sample parameter for a method
-    * @return     the sum of x and y 
+    * Method Question 
     */
-   public void sampleMethod(int y)
+   public void TestQuestions(String question, String poss1, String poss2, 
+   String poss3,String answer)
    {
-      // put your code here
+      
+      // initialise instance variables
+      this.quest = question;
+      this.poss1 = poss1;
+      this.poss2 = poss2;
+      this.poss3 = poss3;
+      this.anAnswer = answer;
       
    }
+
+   
 }

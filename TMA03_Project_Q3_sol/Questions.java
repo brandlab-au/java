@@ -94,7 +94,8 @@ public class Questions extends ExamTest
       q.add(d);
       q.add(e);
      map(z,q);
-     System.out.println("This is the size of the map now "+ test.size());
+     System.out.println("This is the size of the map now ");
+     //test.size());
      //System.out.println(test.containsKey(x));
    }
    

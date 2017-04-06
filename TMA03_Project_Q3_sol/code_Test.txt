@@ -1,9 +1,1 @@
-Questions a = new Questions();
-a.questionsForTest();
-//a.printMap();
-a.addMapEntry(3, "what does gustar mean","like","to like","he likes","answer 2");
-a.addMapEntry(4, "what does comiste mean","I eat","I'v eaten","you eat","anser3");
-a.printMapValue(3);
-a.deleteEntry(3);
-a.printMapValue(3);
-a.selectKeys(2);
+Test aTest = new Test();
