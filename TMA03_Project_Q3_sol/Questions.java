@@ -15,7 +15,9 @@ public class Questions extends ExamTest
    String p2;
    String p3;
    String an;
-   
+   public Set<String> questions;
+   public Set<String> questions1;
+   public Set<String> questions2;
    /**
     * Constructor for objects of class Questions
     */
@@ -95,8 +97,11 @@ public class Questions extends ExamTest
    }
    
    public void deleteEntry(Integer v){
-      // this doesn't work when I put boolena of throws stack overflow 
-       dEntry(v);
+      // This doesn't work when I put boolean,
+      //throws a stack overflow exception 
+      // but does deleat key. 
+      dEntry(v);
    }
     
+  
 }
