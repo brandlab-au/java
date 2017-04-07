@@ -1,4 +1,4 @@
-
+import java.util.*;
 /**
  * Write a description of class Test here.
  * 
@@ -13,7 +13,7 @@ public class TestQuestions
    private String poss2;
    private String poss3;
    private String anAnswer;
-   
+   private Set <String> a;
    /**
     * Constructor for objects of class TestQuestions
     */
@@ -26,10 +26,10 @@ public class TestQuestions
    /**
     * Method Question 
     */
-   public void TestQuestions(String question, String poss1, String poss2, 
+   public TestQuestions(String question, String poss1, String poss2, 
    String poss3,String answer)
    {
-      
+      a = new TreeSet <>();
       // initialise instance variables
       this.quest = question;
       this.poss1 = poss1;
@@ -37,7 +37,14 @@ public class TestQuestions
       this.poss3 = poss3;
       this.anAnswer = answer;
       
+      a.add (question);
+      a.add (poss1);
+      a.add (poss2);
+      a.add (poss3);
+      a.add (answer);
    }
 
-   
+   public Set getSet(){
+    return this.a; 
+   }
 }

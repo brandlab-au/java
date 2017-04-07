@@ -1,1 +1,16 @@
 Test aTest = new Test();
+
+// Prints the map out.
+aTest.printMap();
+
+// Prints one value out.
+aTest.printMapValue(2);
+
+// Test to make up a new set in class TestQuestions
+// TestQuestions a = new TestQuestions("Which word in spanish means // nice","bueno","bien","simpatico","answer 3");
+
+// add data to map creats set first then add's to map.
+aTest.addMapEntry(3,"Which word in spanish means nice","bueno","bien","simpatico","answer 3");
+
+// remove a map entersy
+aTest.deleteEntry(3);
