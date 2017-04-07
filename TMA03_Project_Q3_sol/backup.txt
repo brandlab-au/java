@@ -13,4 +13,10 @@ aTest.printMapValue(2);
 aTest.addMapEntry(3,"Which word in spanish means nice","bueno","bien","simpatico","answer 3");
 
 // remove a map entersy
-aTest.deleteEntry(3);
+//aTest.deleteEntry(3);
+
+// selet a number show the amount in the set then you remove all the //even numbers 
+aTest.selectKeys();
+
+// values found that are odd.
+aTest.selectValues();

@@ -1,4 +1,6 @@
 import java.util.*;
+import java.io.*;
+import ou.*;
 /**
  * Write a description of class Test here.
  * 
@@ -120,29 +122,46 @@ public class Test
    }
    
    /**
-    * Returns a collection of all the keys that satisfy
-    * some particular selection criterion specified by one or more arguments.
+    * Returns a collection of all the keys that are odd;
+    * Fist shows you the amount in the set 
     */
-   public void selectKeys(Integer z)
+   public Set selectKeys()
    {
-     //boolean b;
-     results.remove(z);
-     System.out.println("This is the size of the map now"+
-     "after removing a map entery "+ results.size());
-     
+    
+    OUDialog.alert("This is how menay items are in the arrat " + results.size()
+    + ", we will now deleat all even items");
+    // get keyset value from map
+    Set keyset = results.keySet();
+      while (keyset !=  null)
+      {
+        
+        // Set a = results.keySet();
+        Collection<Integer> removeCandidates = new LinkedList<Integer>();
+        
+         for(Integer element : results.keySet())
+            if(element % 2 == 0)
+            removeCandidates.add(element);
+            
+            System.out.println(" removeCandidates : are :" + removeCandidates);
+            keyset.removeAll(removeCandidates);
+         
+        return keyset;
+      }
+      System.out.println("please try again: below " + keyset);
+      
+      //Set<Integer> keyset = new HashSet<>();
+    return keyset;
    }
    
    /**
-    * Returns a collection of all the map values 
-    * that satisfy some particular selection criterion specified by one or
-    * more arguments.
+    * Returns a collection of all the map values that are odd
+    * 
     */
-   public void selectValues(Integer z)
+   public void selectValues()
    {
-     //boolean b;
-     results.remove(z);
-     System.out.println("This is the size of the map now"+
-     "after removing a map entery "+ results.size());
+     Set<Integer> a = this.selectKeys();
+     for (Integer element : a)
+     System.out.println("Odd values held in set" + results.get(element));
      
    }
    
